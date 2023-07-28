@@ -16,4 +16,4 @@ for i in [5, 8, 9, 77]:
 sp = []
 sp.append(88)
 sp.append("Hello")
-print(sp)
+print(sp[-1])
