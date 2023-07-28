@@ -3,11 +3,13 @@
 # не превосходящие числа N.
 
 n = int(input("Введите число: "))
-temp = []
+numbers = []
 i = 0
 
 while 2 ** i <= n:
-    temp.append(2 ** i)
+    numbers.append(2 ** i)
     i += 1
 
-print(f"Result: {temp}")
+print(f"Все степени двойки заданного числа: {numbers}")
+
+
